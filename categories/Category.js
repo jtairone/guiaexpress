@@ -11,4 +11,7 @@ const Category = connection.define('categorias', {
     }
 })
 
+//descomentar esta linha caso a tabela não esteja criada no banco de dados ..apos ter criado comentar novamente
+//Category.sync({force: true});
+
 module.exports = Category;
