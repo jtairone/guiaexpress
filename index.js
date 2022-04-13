@@ -9,7 +9,7 @@ const articlesController   = require('./articles/ArticlesController');
 const Article = require('./articles/Article');
 const Category = require('./categories/Category');
 
-
+//Arquivo do server da pagina
 //View engine
 app.set('view engine', 'ejs');
 
